@@ -21,12 +21,16 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  /* ✅ Optimized Title (58 chars – ideal) */
   title: {
-    default: "DC Trades Calculator – Forex Pip & Risk Tool",
+    default: "DC Trades Forex Calculator – Pip, Lot Size & Risk Tool",
     template: "%s | DC Trades Calculator",
   },
+
+  /* ✅ Optimized Description (148 chars – ideal) */
   description:
-    "Professional forex pip, profit & risk calculator designed for traders. Calculate lot size, pip value, and risk accurately with DC Trades.",
+    "Free professional forex calculator to instantly calculate pip value, lot size, and risk per trade. Built for serious traders using DC Trades.",
+
   applicationName: "DC Trades Calculator",
 
   /* ✅ PWA */
@@ -48,17 +52,17 @@ export const metadata: Metadata = {
 
   /* ✅ Open Graph (WhatsApp / Messenger / Facebook / LinkedIn) */
   openGraph: {
-    title: "DC Trades Calculator – Forex Pip & Risk Tool",
+    title: "DC Trades Forex Calculator – Pip, Lot Size & Risk Tool",
     description:
-      "Calculate pip value, lot size, and trading risk accurately with DC Trades Forex Calculator.",
+      "Instantly calculate forex pip value, lot size, and trading risk with DC Trades professional calculator. Free, accurate & fast.",
     url: "https://calculator.dctrades.in",
     siteName: "DC Trades Calculator",
     images: [
       {
-        url: "https://calculator.dctrades.in/opengraph-cal-image1.jpg",
+        url: "https://calculator.dctrades.in/opengraph-cal-image11.jpg",
         width: 1200,
         height: 630,
-        alt: "DC Trades Forex Calculator",
+        alt: "DC Trades Forex Calculator – Pip, Lot Size & Risk Tool",
       },
     ],
     locale: "en_US",
@@ -68,13 +72,13 @@ export const metadata: Metadata = {
   /* ✅ Twitter / X */
   twitter: {
     card: "summary_large_image",
-    title: "DC Trades Calculator – Forex Pip & Risk Tool",
+    title: "DC Trades Forex Calculator – Pip, Lot Size & Risk Tool",
     description:
-      "Professional forex calculator for pip value, lot size & risk management.",
-    images: ["https://calculator.dctrades.in/opengraph-cal-image1.jpg"],
+      "Calculate forex pip value, lot size, and risk per trade instantly with DC Trades professional calculator.",
+    images: ["https://calculator.dctrades.in/opengraph-cal-image11.jpg"],
   },
 
-  /* ✅ Favicons (ALL sizes fixed) */
+  /* ✅ Favicons */
   icons: {
     icon: [
       { url: "/favicon.ico" },
